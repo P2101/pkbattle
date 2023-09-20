@@ -1,0 +1,19 @@
+class Mons:
+    def __init__(self, name, dexNum, currentHP, baseHP, baseAtk, baseDef, baseSpd, moveSet):
+        self.dexNum =dexNum
+        self.name = name
+        self.currentHP = currentHP
+        self.baseHP = baseHP
+        self.baseAtk = baseAtk
+        self.baseDef = baseDef
+        self.baseSpd = baseSpd
+        self.moveSet = moveSet
+
+    def harm():
+        pass
+
+    def heal():
+        pass
+
+    def move(move):
+        pass
